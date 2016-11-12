@@ -1,0 +1,25 @@
+{
+  "name": "mirkhamidov/yii2-alert-autohide",
+  "description": "Alert widget for flash messages using bootstrap for yii framework 2.0",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","alertautohide", "alert","alert auto hide","autohide"],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/mirkhamidov/yii2-alert-autohide"
+  },
+  "authors": [
+    {
+      "name": "Jasur Mirkhamidov",
+      "email": "mirkhamidov.jasur@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirkhamidov\\alert\\": ""
+    }
+  }
+}
